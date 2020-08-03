@@ -1,0 +1,228 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 1.0.1
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+ fonts.less
+@font-face {
+    font-family: 'ecofont';
+    src: url('/extension/common/design/an/fonts/ecofont_vera_sans_regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* print.css */
+body {
+	line-height:1.5;
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color:#000;
+	background:none;
+	font-size:12pt;
+	margin:30px;
+	min-width: auto !important;
+	max-width: 100% !important;
+}
+.container {
+	background:none;
+	min-width: auto !important;
+	max-width: 100% !important;
+}
+div {
+	min-width: auto !important;
+	max-width: 100% !important;
+}
+hr {background:#ccc;color:#ccc;width:100%;height:2px;margin:2em 0;padding:0;border:none;}
+hr.space {background:#fff;color:#fff;visibility:hidden;}
+h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;}
+code {font:.9em "Courier New", Monaco, Courier, monospace;}
+a img {border:none;}
+p img.top {margin-top:0;}
+blockquote {margin:1.5em;padding:1em;font-style:italic;font-size:.9em;}
+.small {font-size:.9em;}
+.large {font-size:1.1em;}
+.quiet {color:#999;}
+.hide {display:none;}
+a:link, a:visited {background:transparent;font-weight:700;text-decoration:underline;}
+/* a:link:after, a:visited:after {content:" (" attr(href) ")";font-size:90%;} */
+a:link:after, a:visited:after {content:none !important}
+
+
+
+* {
+	color:red !important;
+	font-family: ecofont !important;
+}
+
+* {
+	background: transparent !important;
+	color: black !important;
+	text-shadow: none !important;
+	filter:none !important;
+	-ms-filter: none !important;
+} /* Black prints faster: h5bp.com/s */
+
+#page table,
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+	border-color:black !important;
+}
+
+table { page-break-after:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }
+td    { page-break-inside:avoid; page-break-after:auto }
+/*
+thead { display:table-header-group }
+tfoot { display:table-footer-group }*/
+
+
+.pagination-bootstrap,
+.breadcrumb,
+footer,
+iframe,
+#to-top,
+#header,
+#navigation,
+#toolbar,
+#debug,
+.contenu-secondaire,
+.tab-lien-liste,
+.no-print,
+.affix,
+.modal{
+	display:none !important;
+}
+
+.contenu-principal {
+	width:100%;
+	float:none !important;
+}
+
+.print_and_pdf{
+    display: none;
+}
+
+.alertNotification{
+	display: none;
+}
+
+.accordion,
+.accordion-group,
+.accordion-heading,
+.accordion-toggle,
+.accordion-toggle.collapsed,
+.accordion-body,
+.accordion-inner{
+    display: block !important;
+    height: auto !important;
+    visibility:visible;
+}
+
+.to-print {
+	display: block !important;
+	position: static !important;
+	}
+	
+	
+aside .to-print {
+	position: static !important;
+
+	}
+	
+	ul.deputes {
+	font-size: 16px !important;
+	}
+	
+	ul.deputes li{
+	font-size: 16px !important;
+	width: 280px !important;
+	line-height: inherit !important;
+	}
+
+	ul.deputes li b{	
+		font-family: Arial, sans-serif !important;
+	}
+	p.nomgroupe {
+	padding-top: 10px !important;
+	}
+	
+	p.map {
+	margin-bottom: 20px !important;
+	}
+	p.itemmap {
+	font-size:18px !important;
+	line-height: 20px !important;
+	}
+	
+	p.itemmap b {
+	font-family: Arial, sans-serif !important;
+	}
+	#page #contenu-page .contenu-secondaire-to-print {
+		width: 900px;
+	}
+
+.ss-circle-deco.dc:after,
+.ss-circle-deco.ident:after{
+	background:#ccc!important;
+}
+
+.jaune-control-pause{
+	display: block!important;
+	
+}
+
+/*
+.ss-circle-deco.dc:after{
+	content:'Discussion commune';
+	top: calc(50% - 27px);
+	left: -3px;
+}
+
+.ss-circle-deco.ident:after{
+	content:'Amendements identiques';
+	top: calc(50% - 27px);
+	left: -20px;
+}*/
+
+.ss-circle-deco.article-jaune:after,
+.ss-circle-deco.inscrit-jaune:after,
+.cd-horizontal-timeline .events-content h2:after,
+.ss-circle-deco.amdt:after,
+.ss-container:before,
+img.jaune-open_image{
+	display: none;
+}
+
+.ss-circle-deco.dc:before,
+.ss-circle-deco.ident:before{
+	border-top: 3px solid #222!important;
+}
+
+.ident-content:before,
+.dc-content:before{
+	background:#222!important;
+}
+
+.ident-content-inner,
+.dc-content-inner{
+	border: 1px solid #222;
+}
+
+.dc-content-inner{
+	background: #FEFFCC!important;
+}
+
+.ident-content-inner{
+	background: #fff!important;
+}

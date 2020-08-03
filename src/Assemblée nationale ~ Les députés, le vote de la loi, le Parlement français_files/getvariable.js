@@ -1,0 +1,1 @@
+es6GlobalVariables = {"legacyUrl":"http:\/\/www2.assemblee-nationale.fr","platformUrl":"\/dyn","completePlatformUrl":"http:\/\/www.assemblee-nationale.fr\/dyn","apiUrl":"\/dyn\/api","legislature":15}

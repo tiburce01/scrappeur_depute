@@ -1,0 +1,226 @@
+.js #page .bloc-les-agendas .contenu-agenda-avec-ascenseur {
+  height: 250px;
+  position: relative;
+  width: 630px;
+}
+.js #page .bloc-les-agendas .contenu-hebdomadaire {
+  height: 500px;
+  position: relative;
+  width: 630px;
+}
+#page .bloc-les-agendas .jspContainer {
+  overflow: hidden;
+  position: relative;
+}
+#page .bloc-les-agendas .jspContainer:focus,
+#page .bloc-les-agendas .actuFil:focus {
+  outline: none;
+}
+#page .bloc-les-agendas .jspPane {
+  position: absolute;
+  width: 630px !important;
+}
+#page .bloc-les-agendas .jspVerticalBar {
+  background: #fff;
+  border: 1px solid #d8d9dd;
+  height: auto;
+  padding: 1px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 7px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+#page .bloc-les-agendas .jspVerticalBar .jspArrow:focus {
+  outline: none;
+}
+#page .bloc-les-agendas .jspHorizontalBar {
+  display: none;
+}
+#page .bloc-les-agendas .jspHorizontalBar .jspCap {
+  float: left;
+}
+#page .bloc-les-agendas .jspVerticalBar *,
+#page .bloc-les-agendas .jspHorizontalBar * {
+  margin: 0;
+  padding: 0;
+}
+#page .bloc-les-agendas .jspCap {
+  display: none;
+}
+#page .bloc-les-agendas .jspArrow.jspArrowUp,
+#page .bloc-les-agendas .jspArrow.jspArrowDown {
+  display: none;
+}
+#page .bloc-les-agendas .jspDrag {
+  background: ;
+  cursor: pointer;
+  left: 0;
+  margin: 2px 1px;
+  position: relative;
+  top: 0;
+  width: 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+#page .bloc-les-agendas .jspArrow {
+  background: #50506d;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  left: 0;
+  text-indent: -20000px;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  width: 7px;
+}
+#page .bloc-les-agendas .jspArrow.jspDisabled {
+  background: #80808d;
+  cursor: default;
+}
+#page .bloc-les-agendas .jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
+#page .menu-secondaire .jspPane li {
+  border-top: 1px solid #C8E0EC;
+  margin: 25px 0 0;
+}
+#page .menu-secondaire .jspPane li + li {
+  border-top: none;
+  margin: 0;
+}
+#page .menu-secondaire .jspPane li:last-child {
+  margin: 0 0 25px;
+}
+.js #page .menu-secondaire.contenu-avec-ascenseur {
+  height: 250px;
+}
+.js #page .contenu-secondaire .contenu-avec-ascenseur {
+  position: relative;
+  border-top: none;
+}
+#page .contenu-secondaire .jspScrollable {
+  width: 240px !important;
+}
+#page .contenu-secondaire .jspContainer {
+  overflow: hidden;
+  position: relative;
+  width: 239px !important;
+}
+#page .contenu-secondaire .jspContainer:focus,
+#page .contenu-secondaire .actuFil:focus {
+  outline: none;
+}
+#page .contenu-secondaire .jspPane {
+  left: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  width: 100% !important;
+}
+#page .contenu-secondaire .jspVerticalBar {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+#page .contenu-secondaire .jspVerticalBar .jspArrow:focus {
+  outline: none;
+}
+#page .contenu-secondaire .jspHorizontalBar {
+  bottom: 0;
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+#page .contenu-secondaire .jspHorizontalBar .jspCap {
+  float: left;
+}
+#page .contenu-secondaire .jspHorizontalBar .jspTrack,
+#page .contenu-secondaire .jspHorizontalBar .jspDrag {
+  float: left;
+  height: 100%;
+}
+#page .contenu-secondaire .jspVerticalBar *,
+#page .contenu-secondaire .jspHorizontalBar * {
+  margin: 0;
+  padding: 0;
+}
+#page .contenu-secondaire .jspCap {
+  display: none;
+}
+#page .contenu-secondaire .jspArrow {
+  background: #50506d;
+  border: 1px solid #d8d9dd;
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  left: 0;
+  padding: 0;
+  position: relative;
+  text-indent: -20000px;
+  top: 0;
+  width: 237px;
+  z-index: 1;
+}
+#page .contenu-secondaire .jspArrow.jspArrowUp {
+  background:  111px -388px no-repeat ;
+}
+#page .contenu-secondaire .jspArrow.jspArrowUp.jspDisabled {
+  background:  111px -388px no-repeat ;
+}
+#page .contenu-secondaire .jspArrow.jspArrowUp.jspDisabled:hover {
+  background-color: ;
+}
+#page .contenu-secondaire .jspArrow.jspArrowUp:hover {
+  background-color: #c2e5f8;
+}
+#page .contenu-secondaire .jspArrow.jspArrowDown {
+  background:  111px -412px no-repeat ;
+}
+#page .contenu-secondaire .jspArrow.jspArrowDown.jspDisabled {
+  background:  111px -412px no-repeat ;
+}
+#page .contenu-secondaire .jspArrow.jspArrowDown.jspDisabled:hover {
+  background-color: ;
+}
+#page .contenu-secondaire .jspArrow.jspArrowDown:hover {
+  background-color: #c2e5f8;
+}
+#page .contenu-secondaire .jspArrow.jspDisabled {
+  background: #80808d;
+  cursor: default;
+}
+#page .contenu-secondaire .jspDrag {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#page .contenu-secondaire .menu-secondaire  .jspArrow.jspArrowUp {
+  -o-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+#page .contenu-secondaire .menu-secondaire  .jspArrow.jspArrowDown {
+  -o-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+#page .contenu-secondaire .jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
