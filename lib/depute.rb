@@ -19,8 +19,8 @@ require 'nokogiri'
 require 'open-uri'
 require 'colorize'
 
-URL = "Liste des députés par ordre alphabétique - XVe législature - Assemblée nationale.html"
-URL2 = "Assemblée nationale ~ Les députés, le vote de la loi, le Parlement français.html"
+URL = "../src/Liste des députés par ordre alphabétique - XVe législature - Assemblée nationale.html"
+URL2 = "../src/Assemblée nationale ~ Les députés, le vote de la loi, le Parlement français.html"
 
 def perform
 	#1. recuperation de la liste des url des deputes
